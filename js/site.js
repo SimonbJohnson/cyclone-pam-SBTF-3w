@@ -1,7 +1,7 @@
 //configuration object
 
 var config = {
-    title:"Vanuatu Cyclone Pam StandBy Task Force 3W",
+    title:"Vanuatu Cyclone Pam Standby Task Force 3W",
     description:"<p>Click the graphs or map to interact.<br />Date: 25/03/2015<br />Contact: <a href='https://twitter.com/Simon_B_Johnson' target='_blank'>Simon Johnson</a><br />Source: <a href='http://blog.standbytaskforce.com/' target='_blank'>Standby Task Force</a></p>",
     data:"data/data.json",
     whoFieldName:"organisation",
