@@ -36,7 +36,7 @@ function generate3WComponent(config,data,geom){
     var whereGroup = whereDimension.group();
     var all = cf.groupAll();
 
-    whoChart.width($('#hdx-3W-who').width()).height(240)
+    whoChart.width($('#hdx-3W-who').width()).height(500)
             .dimension(whoDimension)
             .group(whoGroup)
             .elasticX(true)
@@ -67,7 +67,7 @@ function generate3WComponent(config,data,geom){
             .dimension(cf)
             .group(all);
 
-    whereChart.width($('#hxd-3W-where').width()).height(360)
+    whereChart.width($('#hxd-3W-where').width()).height(380)
             .dimension(whereDimension)
             .group(whereGroup)
             .center([-17.050,168.3000])
